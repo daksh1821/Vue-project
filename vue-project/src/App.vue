@@ -1,6 +1,13 @@
-<script setup></script>
+<script setup>
+import Homepage from './components/Homepage.vue'
+</script>
 
 <template>
-  <h1>Hello Vue</h1>
+  <Homepage/>
 </template>
-<style scoped></style>
+
+<style scoped>
+  h1{
+    color: coral;
+  }
+</style>
