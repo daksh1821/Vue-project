@@ -1,13 +1,11 @@
 <script setup>
-import Homepage from './components/Homepage.vue'
+import GlobalStyles from './components/GlobalStyles.vue'
+import LocalStyles from './components/LocalStyles.vue'
 </script>
 
 <template>
-  <Homepage/>
+<GlobalStyles/>
+<LocalStyles/>
 </template>
 
-<style scoped>
-  h1{
-    color: coral;
-  }
-</style>
+
