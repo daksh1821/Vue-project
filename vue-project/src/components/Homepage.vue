@@ -1,6 +1,6 @@
 <script setup>
-const messege = "hello world";
+const my_instagram = "https://www.instagram.com/daksh_j28/";
 </script>
 <template>
-  <h1>{{messege}}</h1>
+  <a :href="my_instagram"> my insta page</a>
 </template>
