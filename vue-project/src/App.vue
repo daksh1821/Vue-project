@@ -1,11 +1,7 @@
 <script setup>
-import GlobalStyles from './components/GlobalStyles.vue'
-import LocalStyles from './components/LocalStyles.vue'
+import myevent from './components/myevent.vue'
 </script>
 
 <template>
-<GlobalStyles/>
-<LocalStyles/>
+  <myevent/>
 </template>
-
-
