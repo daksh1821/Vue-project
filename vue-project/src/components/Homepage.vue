@@ -1,7 +1,6 @@
 <script setup>
-import anothercomponent from './anothercomponent.vue'
+const messege = "hello world";
 </script>
 <template>
-  <h1>Welcome to the Homepage</h1>
-  <anothercomponent />
+  <h1>{{messege}}</h1>
 </template>
