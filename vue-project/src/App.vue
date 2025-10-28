@@ -1,7 +1,7 @@
 <script setup>
-import myevent from './components/myevent.vue'
+import ConditionalRendering from './components/ConditionalRendering.vue'
 </script>
 
 <template>
-  <myevent/>
+  <ConditionalRendering />
 </template>
