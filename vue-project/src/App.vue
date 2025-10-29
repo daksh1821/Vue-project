@@ -1,7 +1,7 @@
 <script setup>
-import ConditionalRendering from './components/ConditionalRendering.vue'
+import staticpropscomponents from './components/staticpropscomponents.vue';
 </script>
 
 <template>
-  <ConditionalRendering />
+  <staticpropscomponents name="daksh"/>
 </template>
